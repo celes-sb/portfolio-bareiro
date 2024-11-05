@@ -90,7 +90,31 @@ export const educationInfo: EducationType[] = [
     schoolName: "4Geeks Academy",
     subHeader: "Full Stack Software Develoment",
     duration: "January 2023 - May 2023",
-    desc: "",
+    desc: "Descripcion",
+  },
+  {
+    schoolName: "freeCodeCamp",
+    subHeader: "Responsive Web Design",
+    duration: "Octubre 2022 - November 2022",
+    desc: "Descripcion",
+  },
+  {
+    schoolName: "freeCodeCamp",
+    subHeader: "JavaScript",
+    duration: "Octubre 2024 - November 2024",
+    desc: "Descripcion",
+  },
+  {
+    schoolName: "freeCodeCamp",
+    subHeader: "Front End Libraries",
+    duration: "Octubre 2022 - November 2022",
+    desc: "Descripcion",
+  },
+  {
+    schoolName: "The Odin Project",
+    subHeader: "Front End Libraries",
+    duration: "Octubre 2022 - November 2022",
+    desc: "Descripcion",
   },
 ];
 
@@ -98,8 +122,8 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "Sanbra LLC / 4Geeks Academy",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
+    companyLogo: "/img/icons/common/geeks.jpg",
+    date: "August 2023 - May 2024",
     desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
     descBullets: [
     "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -109,27 +133,56 @@ export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
     company: "No Country",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
+    companyLogo: "/img/icons/common/nocountry.png",
     date: "June 2023",
     desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    descBullets: [
+      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Movement by Martín Fiasche",
+    desc: "Describir proyecto",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Proyecto",
+    desc: "Empezar a poner proyectos / descripcion",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
+  },
+  {
+    name: "Proyecto",
+    desc: "Empezar a poner proyectos / descripcion",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
+  },
+  {
+    name: "Proyecto",
+    desc: "Empezar a poner proyectos / descripcion",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
+  },
+  {
+    name: "Proyecto",
+    desc: "Empezar a poner proyectos / descripcion",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
+  },
+  {
+    name: "Proyecto",
+    desc: "Empezar a poner proyectos / descripcion",
+    github: "https://github.com/celes-sb",
+    link: "https://github.com/celes-sb",
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
+/*export const feedbacks: FeedbackType[] = [
   {
     name: "Syed Jamal",
     role: "Frontend Developer at Meganos Software",
@@ -148,7 +201,7 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
   },
-];
+];*/
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
