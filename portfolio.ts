@@ -2,7 +2,6 @@ import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
-  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -205,12 +204,12 @@ export const projects: ProjectType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
-  description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
-  keywords: [
+  title: "Celeste Bareiro | Portfolio",
+  //description: greetings.description,
+  //author: "Hanzla Tauqeer",
+  //image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  //url: "https://developer-portfolio-1hanzla100.vercel.app",
+  /*keywords: [
     "Hanzla",
     "Hanzla Tauqeer",
     "@1hanzla100",
@@ -218,5 +217,5 @@ export const seoData: SEODataType = {
     "Portfolio",
     "Hanzla Portfolio ",
     "Hanzla Tauqeer Portfolio",
-  ],
+  ],*/
 };
